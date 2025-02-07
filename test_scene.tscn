@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://djgddq5rfgpjp"]
+
+[ext_resource type="Texture2D" uid="uid://oxlle210wa27" path="res://icon.svg" id="1_f3v28"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(318, 366)
+texture = ExtResource("1_f3v28")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(847, 183)
+texture = ExtResource("1_f3v28")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(942, 480)
+texture = ExtResource("1_f3v28")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 406.0
+offset_top = 325.0
+offset_right = 778.0
+offset_bottom = 400.0
+text = "Press F4 to take a screenshot
+Add 'screenshot' to your input map to overwrite
+Screenshots are saved in res://screenshots/"
+horizontal_alignment = 1
