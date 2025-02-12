@@ -8,9 +8,9 @@ I mostly made this to learn how addons work in a very simple scenario, inspired 
 
 1. Download or clone this repo.
 2. Copy the `addons/screenshot` directory into your Godot project.
-3. Ensure the addon is enabled `Project Setting -> Plugins`.
+3. Ensure the addon is enabled in `Project Setting -> Plugins`.
 4. Reload the project
-5. Press `F4` while playing your testing your game.
+5. Press `F4` while testing your game.
 
 Screenshots are saved in a `screenshots/` directory at the the root of your project.
 
